@@ -7,6 +7,7 @@ import Models from './component/Models'
 import NavBar from './component/NavBar'
 import Carts from './component/Carts'
 import Steps from './component/Steps'
+import Cards from './component/Cards'
 
 const getModels = async () => {
   const res = await fetch("/models.json")
@@ -50,6 +51,8 @@ function App() {
    {activeTab === "cart" && <Carts setCarts={setCarts} carts={carts}></Carts>  }
 
    <Steps></Steps>
+
+   <Cards></Cards>
 
 
     <Footer></Footer>
