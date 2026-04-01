@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "CopyMaster AI",
+    "description": "AI-powered copywriting tool for creating high-converting content in seconds.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "SEO optimization", "Export to PDF"],
+    "icon": "📝"
+  },
+  {
+    "id": 2,
+    "name": "DesignGenie",
+    "description": "AI tool to generate stunning graphics and social media posts effortlessly.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["500+ templates", "Drag & Drop editor", "Commercial license"],
+    "icon": "🎨"
+  },
+  {
+    "id": 3,
+    "name": "VideoBoost AI",
+    "description": "Create professional videos with AI assistance in minutes.",
+    "price": 99,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Auto-subtitles", "Stock footage integration", "HD export"],
+    "icon": "🎥"
+  },
+  {
+    "id": 4,
+    "name": "ChatFlow AI",
+    "description": "AI chatbot platform to automate customer support and engagement.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Multi-language support", "CRM integration", "Analytics dashboard"],
+    "icon": "💬"
+  },
+  {
+    "id": 5,
+    "name": "CodeGen AI",
+    "description": "Generate production-ready code snippets with AI assistance.",
+    "price": 59,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Multiple languages", "VS Code plugin", "Error detection"],
+    "icon": "💻"
+  },
+  {
+    "id": 6,
+    "name": "VoiceOver AI",
+    "description": "Convert text to realistic voiceovers using AI voices.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Multiple voices", "MP3 & WAV export", "Commercial use"],
+    "icon": "🎙️"
+  },
+  {
+    "id": 7,
+    "name": "SEO Wizard AI",
+    "description": "Optimize your website content and improve search rankings with AI.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Keyword suggestions", "Content score", "Competitor analysis"],
+    "icon": "🔍"
+  }
+]
