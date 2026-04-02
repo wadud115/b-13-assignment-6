@@ -26,8 +26,14 @@ Explore Products
           </p>
 
           <div className="flex flex-wrap gap-4 pt-4">
-            <button className="bg-purple-600 hover:bg-purple-500 transition-all px-8 py-4 rounded-3xl font-semibold text-lg shadow-xl shadow-purple-500/30 flex items-center gap-3 group text-white">
+
+            <button className="bg-purple-600 hover:bg-purple-500 w-60 h-15 transition-all px-8 py-4 rounded-full font-semibold text-lg shadow-xl shadow-purple-500/30 flex justify-center items-center gap-3 group text-white">
               Explore Products
+              
+            </button>
+
+            <button className="font-semibold hover:text-white hover:bg-purple-600 border-purple-600 rounded-full w-40 h-15 flex justify-center items-center border-2 text-purple-600">
+             ▶ Watch Demo
               
             </button>
 

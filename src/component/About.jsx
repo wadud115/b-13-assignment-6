@@ -5,7 +5,7 @@ const About = () => {
         <div className='bg-purple-600 '>
 
             
-      <div className='w-10/12 mx-auto flex justify-between gap-10 p-15'>
+      <div className='w-10/12 mx-auto flex justify-center  gap-10 p-15'>
       
                 <div className='border-r px-20 border-white space-y-3'>
                     <h2 className='text-gray-200 font-bold text-4xl'>50K+</h2>

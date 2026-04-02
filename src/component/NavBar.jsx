@@ -27,7 +27,21 @@ const NavBar = () => {
       </div>
 
       <div className="navbar-end gap-5">
-        <img src="" alt="" />
+
+        <div className="relative inline-block">
+  
+  <img 
+    src="/public/shopping-cart.png" 
+    alt="cart" 
+    className="w-6 h-6"
+  />
+
+  <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs w-4 h-4 flex items-center justify-center rounded-full">
+    1
+  </span>
+
+</div>
+       
         <a href="">Login</a>
         <a className="btn bg-purple-600 rounded-full text-white">Get Started</a>
       </div>

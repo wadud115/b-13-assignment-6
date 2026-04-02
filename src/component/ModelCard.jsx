@@ -51,7 +51,7 @@ const ModelCard = ({model, carts , setCarts}) => {
            ))}
           </ul>
                         <button  onClick={ handleSubscription} className='btn w-full bg-purple-600 rounded-lg  text-white'>
-                            {isSubscribed? "Buy Now" : "Add to carded "}</button>
+                            {isSubscribed? "Add to carded " : "Buy Now "}</button>
                     </div>
                     
                 </div>

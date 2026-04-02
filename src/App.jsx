@@ -38,9 +38,15 @@ function App() {
 
     <About></About>
 
-    <div className="tabs tabs-box justify-center bg-transparent mt-30 ">
+      <div className='text-center space-y-3 mt-30'>
+            <h2 className='text-5xl font-bold'>Premium Digital Tools</h2>
+            <p className='w-5/12 mx-auto'>Choose from our curated collection of premium digital products designed 
+                to boost your productivity and creativity.</p>
+            </div>
 
-  <input onClick={()=> setActiveTab("model")} type="radio" name="my_tabs_1" className="tab w-30 rounded-full" aria-label="Model" defaultChecked />
+    <div className="tabs tabs-box justify-center bg-transparent mt-10 ">
+
+  <input onClick={()=> setActiveTab("model")} type="radio" name="my_tabs_1" className="tab w-30 rounded-full" aria-label="Product" defaultChecked />
   <input onClick={()=> setActiveTab("cart")} type="radio" name="my_tabs_1" className="tab w-30  rounded-full " aria-label={`Cart (${carts.length})`} />
 </div>
 

@@ -35,6 +35,14 @@ const Cards = () => {
 
                 </div>
                 <div className='card bg-[#8900f9] text-white border border-[#F2F2F2] shadow-2xl p-5 space-y-5 rounded-3xl'>
+                    
+                    
+                    <div className="relative">
+
+                    <p className="absolute -top-10 right-28 px-4 py-2 rounded-4xl bg-[#FEF3C6] text-[#BB4D00]">best seller</p>
+                       
+                      </div>
+                    
                     <div>
                         <h3 className='font-bold text-xl '>Pro</h3>
                         <p className='text-white'>Best for professionals</p>

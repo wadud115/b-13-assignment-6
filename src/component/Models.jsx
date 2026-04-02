@@ -9,11 +9,7 @@ const Models = ({modelsPromise , carts , setCarts}) => {
         <div className='py-10'>
 
 
-           <div className='text-center space-y-3'>
-            <h2 className='text-5xl font-bold'>Premium Digital Tools</h2>
-            <p className='w-5/12 mx-auto'>Choose from our curated collection of premium digital products designed 
-                to boost your productivity and creativity.</p>
-            </div>
+         
 
 
 

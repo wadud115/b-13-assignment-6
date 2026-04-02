@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="bg-zinc-950 border-t border-red-900/50 pt-16 pb-10">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-16 gap-12">
           {/* Logo & Description */}
           <div className="md:col-span-5">
             <div className="flex items-center gap-3 mb-6">
@@ -107,20 +107,24 @@ const Footer = () => {
           </div>
 
 
-          <div>
-            <p>Social Links</p>
+          <div className="md:col-span-3" >
+            <p className="text-white mb-5">Social Links</p>
 
-            <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+            <ul className="flex gap-5">
+                <li><img src="/public/Facebook.png" alt="" /></li>
+                <li><img src="/public/Twitter.png" alt="" /></li>
+                <li><img src="/public/Instagram.png" alt="" /></li>
             </ul>
-          </div>
+          
+          
+         </div>
+        
+        
         </div>
 
         {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-zinc-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-500">
-          <div>© {new Date().getFullYear()} © 2026 Digitools. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} Digitools. All rights reserved.</div>
 
           <div className="flex gap-6">
             <ul className="flex gap-7">
