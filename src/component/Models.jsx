@@ -10,11 +10,16 @@ const Models = ({modelsPromise , carts , setCarts}) => {
 
 
            <div className='text-center space-y-3'>
-            <h2 className='text-5xl font-bold'>Choose Your Ai Model</h2>
-            <p>our Subsription Give you Access to All Frontiar Ai Model</p>
+            <h2 className='text-5xl font-bold'>Premium Digital Tools</h2>
+            <p className='w-5/12 mx-auto'>Choose from our curated collection of premium digital products designed 
+                to boost your productivity and creativity.</p>
             </div>
 
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-5 mt-10 w-11/12 mx-auto'>
+
+
+            
+
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-5 mt-10 w-10/12 mx-auto'>
 
                 {
                 models.map(model => <ModelCard carts = {carts } setCarts={setCarts} model = {model}></ModelCard>

@@ -38,13 +38,15 @@ function App() {
 
     <About></About>
 
+    <div className="tabs tabs-box justify-center bg-transparent mt-30 ">
+
+  <input onClick={()=> setActiveTab("model")} type="radio" name="my_tabs_1" className="tab w-30 rounded-full" aria-label="Model" defaultChecked />
+  <input onClick={()=> setActiveTab("cart")} type="radio" name="my_tabs_1" className="tab w-30  rounded-full " aria-label={`Cart (${carts.length})`} />
+</div>
+
 
         
-<div className="tabs tabs-box justify-center bg-transparent ">
 
-  <input onClick={()=> setActiveTab("model")} type="radio" name="my_tabs_1" className="tab w-30 rounded-lg" aria-label="Model" defaultChecked />
-  <input onClick={()=> setActiveTab("cart")} type="radio" name="my_tabs_1" className="tab w-30 rounded-lg " aria-label={`Cart (${carts.length})`} />
-</div>
 
    {activeTab === "model" && <Models carts = {carts } setCarts={setCarts} modelsPromise= {modelsPromise}></Models>}
   

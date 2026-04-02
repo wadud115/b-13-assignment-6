@@ -12,21 +12,46 @@ const ModelCard = ({model, carts , setCarts}) => {
         toast.success('item added to cart')
     }
 
+   
+
     return (
-        <div>
+        <div className=''>
+
+  
 
             <div className='shadow-lg rounded-lg border overflow-hidden border-zinc-300'>
 
-                    <div className='h-56 flex justify-center items-center bg-zinc-200'>
-                    <img className='h-40 w-40 object-contain' src={model.image} alt="" />
-                    </div>
 
+                    
                     <div className='p-5 space-y-3'>
-                        <h2 className='text-2xl font-bold'>{model.title}</h2>
+                        
+                        <div className=' flex justify-end  '>
+                            <p className=' bg-green-200 text-green-700 font-semibold w-30 h-10flex p-2 rounded-3xl flex justify-center items-center'>{model.tag}</p>
+                        </div>
+                        
+                        <div className="w-12 h-12 flex items-center justify-center bg-gray-100 rounded-full">
+                   <img 
+                 src={model.icon} 
+                className="w-7 h-7 object-contain"/>
+                                                   
+                           </div>
+
+                        <h2 className='text-2xl font-bold'>{model.name}</h2>
                         <p>{model.description}</p>
-                        <div className='text-2xl font-bold'>${model.price}/month</div>
-                        <button  onClick={ handleSubscription} className='btn w-full bg-red-500 rounded-lg  text-white'>
-                            {isSubscribed? "Subscribed" : "Subscribe now"}</button>
+                        <div className='text-2xl font-bold'>${model.price}<span className='text-gray-400 font-normal text-sm '>/{model.period}</span></div>
+                        <ul className="mt-4 space-y-3">
+
+                     {model.features.map((feature, index) => (
+                     <li key={index} className="flex items-start gap-3 text-gray-600">
+      
+                    <span className="text-green-500 ">✔</span>
+      
+                      <p>{feature}</p>
+                        </li>
+           ))}
+          </ul>
+                        <button  onClick={ handleSubscription} className='btn w-full bg-purple-600 rounded-lg  text-white'>
+                            {isSubscribed? "Buy Now" : "Add to carded "}</button>
                     </div>
                     
                 </div>
