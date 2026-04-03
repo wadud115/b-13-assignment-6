@@ -33,7 +33,7 @@ function App() {
   return (
     <>
 
-    <NavBar></NavBar>
+    <NavBar carts={carts}></NavBar>
     <Banner></Banner>
 
 

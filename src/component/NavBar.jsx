@@ -1,6 +1,6 @@
-const NavBar = () => {
+const NavBar = ({carts}) => {
   return (
-    <div className="navbar">
+    <div className="navbar fixed bg-white t-0 z-10">
       <div className="navbar-start">
         <div className="flex items-center   gap-1 font-bold text-4xl text-purple-600">
          DigiTools
@@ -37,7 +37,7 @@ const NavBar = () => {
   />
 
   <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs w-4 h-4 flex items-center justify-center rounded-full">
-    1
+    {carts.length}
   </span>
 
 </div>
