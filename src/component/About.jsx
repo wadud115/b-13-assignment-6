@@ -5,21 +5,21 @@ const About = () => {
         <div className='bg-purple-600 '>
 
             
-      <div className='w-10/12 mx-auto flex justify-center  gap-10 p-15'>
+      <div className='w-10/12 mx-auto md:flex mt-20 justify-center flex flex-col md:flex-row  lg:gap-10 p-15'>
       
-                <div className='border-r px-20 border-white space-y-3'>
+                <div className='md:border-r md:px-20 border-white space-y-3 '>
                     <h2 className='text-gray-200 font-bold text-4xl'>50K+</h2>
                     <p className='text-gray-300'> Active Users</p>
 
                 </div>
 
-                <div className='border-r px-20 border-white space-y-3'>
+                <div className='lg:border-r lg:px-20 border-white space-y-3'>
                     <h2 className='text-gray-200 font-bold text-4xl'>200+</h2>
                     <p className='text-gray-300'>Premium Tools</p>
 
                 </div>
 
-                <div className='space-y-3'>
+                <div className='space-y-3 '>
                     <h2 className='text-gray-200 font-bold text-4xl'>4.9</h2>
                     <p className='text-gray-300'> Rating</p>
 

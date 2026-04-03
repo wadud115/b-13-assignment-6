@@ -8,6 +8,7 @@ import NavBar from './component/NavBar'
 import Carts from './component/Carts'
 import Steps from './component/Steps'
 import Cards from './component/Cards'
+import { ToastContainer } from 'react-toastify'
 
 const getModels = async () => {
   const res = await fetch("/models.json")
@@ -64,6 +65,8 @@ function App() {
 
 
     <Footer></Footer>
+
+    <ToastContainer></ToastContainer>
     
     </>
   )

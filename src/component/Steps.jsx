@@ -13,7 +13,7 @@ const Steps = () => {
             <p className='text-gray-500'>Start using premium digital tools in minutes, not hours.</p>
             </div>
 
-            <div className='grid grid-cols-3 gap-10 justify-between '>
+            <div className='grid lg:grid-cols-3 gap-10 justify-between '>
 
                 <div className='shadow-2xl p-10 rounded-2xl text-center space-y-5'>
                 

@@ -9,7 +9,7 @@ const Cards = () => {
                 <p>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
 
-            <div className='cards grid grid-cols-3 gap-10 w-10/12 mx-auto mb-20'>
+            <div className='cards grid lg:grid-cols-3 gap-10 w-10/12 mx-auto mb-20'>
 
                 <div className='card bg-[#F9FAFC] border border-[#F2F2F2] shadow-2xl p-5 space-y-5 rounded-3xl'>
                     <div>
