@@ -27,9 +27,9 @@ Users can explore tools, choose plans, and manage their subscriptions easily wit
 ---
 
 
-## 🔗 Live Demo
+## 🔗 Live demo
 
-*Add your live project link here*
+https://digitel-tools-subcription.netlify.app/
 
 ---
 
